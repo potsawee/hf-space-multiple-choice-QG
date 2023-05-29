@@ -35,7 +35,7 @@ demo = gr.Interface(
     fn=generate_multiple_choice_question,
     inputs=gr.Textbox(lines=8, placeholder="Context Here..."),
     outputs=gr.Textbox(lines=5, placeholder="Question: \n[A] \n[B] \n[C] \n[D] "),
-    title="Multiple-choice Question (and Options) Generator",
+    title="Multiple-choice Question Generator",
     description="Provide some context (e.g. news article or any passage) in the context box and click **Submit**. The models currently support English only. This demo is a part of MQAG - https://github.com/potsawee/mqag0.",
     allow_flagging='never'
 )
